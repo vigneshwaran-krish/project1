@@ -5,7 +5,9 @@ from chatterbot.trainers import ChatterBotCorpusTrainer
 chatbot = ChatBot('ChatBot')
 trainer = ChatterBotCorpusTrainer('chatbot')
 
-trainer.train("chatterbot.corpus.english")
+#ex:trainer.train("C:\Users\user\Desktop") edit the path as the given example once the coustomized ai.yml file is placed in a path.
+trainer.train("chatterbot.corpus.english") 
+                                            
 
 
 print("Hi, i am ChatBot")
