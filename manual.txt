@@ -1,0 +1,11 @@
+Project Title: "Chatbot for University"
+
+Install the following libraries:
+	 pip install Flask
+	 pip install "chatterbot==1.0.0" 
+	 pip install -U pip setuptools wheel
+	 pip install -U spacy
+
+Attached customized yml file for the ai bot.
+ place the file in any path and change "trainer.train("chatterbot.corpus.english")" with the path as the example given below
+ "trainer.train("C:\Users\user\Desktop")"
