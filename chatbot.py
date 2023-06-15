@@ -5,8 +5,7 @@ from chatterbot.trainers import ChatterBotCorpusTrainer
 chatbot = ChatBot('ChatBot')
 trainer = ChatterBotCorpusTrainer('chatbot')
 
-trainer.train("chatterbot.corpus.english")+
-+
+trainer.train("chatterbot.corpus.english")
 
 
 print("Hi, i am ChatBot")
